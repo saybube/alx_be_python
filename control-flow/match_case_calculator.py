@@ -2,19 +2,19 @@ num1 = int(input("Enter the first number:" ))
 num2 = int(input("Enter the second number:" ))
 
 
-operation = input("Choose an operation (add, subtract, multiply, divide): ")
+operation = input("Choose the operation (+, -, *, /): ")
 operation = operation.lower()
 match operation:
-    case "add":
+    case "+":
         result = num1 + num2
         print(f"The result of adding {num1} and {num2} is {result}.")
-    case "subtract":
+    case "-":
         result = num1 - num2
         print(f"The result of subtracting {num2} from {num1} is {result}.")
-    case "multiply":
+    case "*":
         result = num1 * num2
         print(f"The result of multiplying {num1} and {num2} is {result}.")
-    case "divide":
+    case "/":
         if num2 != 0:
             result = num1 / num2
             print(f"The result of dividing {num1} by {num2} is {result}.")
