@@ -67,7 +67,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertAlmostEqual(self.calc.multiply(1.5, 2.0), 3.0)
 
     # Tests for the divide method
-    def test_divide(self):
+    def test_division(self):
         """Test division of positive numbers."""
         self.assertEqual(self.calc.divide(10, 2), 5.0)
         self.assertEqual(self.calc.divide(15, 3), 5.0)
