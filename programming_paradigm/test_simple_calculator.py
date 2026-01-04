@@ -47,7 +47,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertAlmostEqual(self.calc.subtract(1.1, 1.1), 0.0)
 
     # Tests for the multiply method
-    def test_multiply(self):
+    def test_multiplication(self):
         """Test multiplication of positive numbers."""
         self.assertEqual(self.calc.multiply(3, 4), 12)
         self.assertEqual(self.calc.multiply(7, 6), 42)
